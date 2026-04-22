@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Program() {
   return (
-    <main className="bg-[#F9F9F9] p-10 flex items-center justify-center">
-      <div className="bg-[#2C0922] p-8 rounded-2xl flex items-center justify-center gap-10 w-[1312px]">
+    <main className="bg-[#F9F9F9] p-10 flex justify-center mt-15">
+      <div className="bg-[#2C0922] p-8 rounded-2xl flex justify-center gap-10 w-[1320px]">
         <Image
           className="rounded-md"
           src="/TobamsDevelopmentImage2.jpg"
@@ -27,21 +27,21 @@ export default function Program() {
             managerial competencies for corporate organisations.
           </p>
 
-          <ul className="flex flex-col gap-4">
-            <span className="flex items-center gap-2 bg-[#8F6182] py-1 px-10 rounded-4xl">
-              <Image src="/Vector.png" alt="vector" width={12} height={12} />
+          <ul className="flex flex-col gap-4 ">
+            <span className="flex gap-2 bg-[#8F6182] py-1 px-2 rounded-md">
+              <Image src="/bolt.png" alt="bolt" width={20} height={20} />
               <li>Enhanced Leadership Skills</li>
             </span>
-            <span className="flex items-center gap-2 bg-[#8F6182] py-1 px-10 rounded-4xl">
-              <Image src="/Vector.png" alt="vector" width={12} height={12} />
+            <span className="flex gap-2 bg-[#8F6182] py-1 px-2 rounded-md">
+              <Image src="/bolt.png" alt="bolt" width={20} height={20} />
               <li>Improved Employee Engagement</li>
             </span>
-            <span className="flex items-center gap-2 bg-[#8F6182] py-1 px-10 rounded-4xl">
-              <Image src="/Vector.png" alt="vector" width={12} height={12} />
+            <span className="flex gap-2 bg-[#8F6182] py-1 px-2 rounded-md">
+              <Image src="/bolt.png" alt="bolt" width={20} height={20} />
               <li>Stronger Organisational Culture</li>
             </span>
-            <span className="flex items-center gap-2 bg-[#8F6182] py-1 px-10 rounded-4xl">
-              <Image src="/Vector.png" alt="vector" width={12} height={12} />
+            <span className="flex gap-2 bg-[#8F6182] py-1 px-2 rounded-md">
+              <Image src="/bolt.png" alt="bolt" width={20} height={20} />
               <li>Sustainable Growth</li>
             </span>
           </ul>

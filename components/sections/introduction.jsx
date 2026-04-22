@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Introduction() {
   return (
     <article className="bg-[#FFFFFF]">
-      <div className="flex justify-between items-center gap-5 p-10 mt-[120px]">
+      <div className="flex justify-between items-center gap-5 p-10 mt-[160px]">
         <div className="flex flex-col">
           <h1 className=" text-[40px] font-semibold text-black">
             Corporate Trainings
@@ -18,23 +18,48 @@ export default function Introduction() {
             </p>
             <ul className="flex flex-col pl-6 gap-3 my-3">
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Leadership Training</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Strategic Planning and Implementation</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Project Management</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Sustainability Training</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Customised Training</li>
               </span>
             </ul>
@@ -50,7 +75,7 @@ export default function Introduction() {
         />
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-5 p-10 mt-[120px]">
+      <div className="flex flex-row-reverse justify-between items-center gap-5 p-10 mt-[160px]">
         <div className="flex flex-col">
           <h1 className=" text-[40px] font-semibold text-black">
             Personalised Individual Training{" "}
@@ -65,27 +90,57 @@ export default function Introduction() {
             </p>
             <ul className="flex flex-col pl-6 gap-3 my-3">
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Leadership Training</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Soft Skills Development</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Industry Specific Knowledge</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Technical Skills Enhancement</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Time Management and Productivity</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Career Development</li>
               </span>
             </ul>
@@ -101,7 +156,7 @@ export default function Introduction() {
         />
       </div>
 
-      <div className="flex justify-between items-center gap-5 p-10 mt-[120px]">
+      <div className="flex justify-between items-center gap-5 p-10 mt-[160px]">
         <div className="flex flex-col">
           <h1 className=" text-[40px] font-semibold text-black">
             Capacity Development
@@ -116,27 +171,57 @@ export default function Introduction() {
             </p>
             <ul className="flex flex-col pl-6 gap-3 my-3">
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Tailored Training Programs</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Expert-Led Workshops</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Personalized Mentorship</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Technical Skills Enhancement</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Collaborative Learning Environment</li>
               </span>
               <span className="flex items-center gap-2">
-                <Image src="/Vector.png" alt="vector" width={12} height={12} />
+                <Image
+                  src="/Vector2.png"
+                  alt="Vector2"
+                  width={16}
+                  height={16}
+                />
                 <li>Ongoing Support and Resources</li>
               </span>
             </ul>
