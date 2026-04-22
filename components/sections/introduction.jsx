@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Introduction() {
   return (
     <article className="bg-[#FFFFFF]">
-      <div className="flex justify-between items-center gap-5 p-10 mt-[160px]">
+      <div className="flex justify-between items-center gap-5 p-10 mt-[120px]">
         <div className="flex flex-col">
           <h1 className=" text-[40px] font-semibold text-black">
             Corporate Trainings
@@ -75,7 +75,7 @@ export default function Introduction() {
         />
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-5 p-10 mt-[160px]">
+      <div className="flex flex-row-reverse justify-between items-center gap-5 p-10 mt-[120px]">
         <div className="flex flex-col">
           <h1 className=" text-[40px] font-semibold text-black">
             Personalised Individual Training{" "}
@@ -156,7 +156,7 @@ export default function Introduction() {
         />
       </div>
 
-      <div className="flex justify-between items-center gap-5 p-10 mt-[160px]">
+      <div className="flex justify-between items-center gap-5 p-10 mt-[120px]">
         <div className="flex flex-col">
           <h1 className=" text-[40px] font-semibold text-black">
             Capacity Development

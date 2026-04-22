@@ -3,7 +3,7 @@ import Button from "../ui/button";
 
 export default function Consultant() {
   return (
-    <main className="bg-[#FFFFFF1A] p-10">
+    <main className="bg-[#FFFFFF1A] p-10 my-15">
       <div className="flex flex-col gap-5">
         <h1 className="text-[#571244] text-[40px] font-semibold">
           {" "}

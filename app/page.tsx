@@ -5,6 +5,7 @@ import Introduction from "@/components/sections/introduction";
 import Program from "@/components/sections/program";
 import TransformationHub from "@/components/sections/transformationhub";
 import Consultant from "@/components/sections/consultant";
+import Testimonial from "@/components/sections/testimonial";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Program />
       <TransformationHub />
       <Consultant />
+      <Testimonial />
     </>
   );
 }
