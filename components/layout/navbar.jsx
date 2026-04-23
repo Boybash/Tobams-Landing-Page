@@ -10,7 +10,7 @@ export default function Navbar() {
           <Image src="/TobamsLogo.png" alt="Logo" width={165} height={64} />
         </div>
 
-        <ul className="flex items-center gap-4">
+        <ul className=" hidden sm:hidden lg:flex items-center gap-4">
           <button className=" bg-[#571244] flex items-center gap-2 px-4 py-2 rounded-md">
             <Image
               src="/TobamsUserIcon.png"
@@ -32,9 +32,19 @@ export default function Navbar() {
             </Button>
           </div>
         </ul>
+
+        <Image
+          src="/hamburger.png"
+          alt="hambuger mobile"
+          width={32}
+          height={20}
+          className=" lg:hidden"
+        />
       </div>
+
       <hr className="my-4 border-black w-full" />
-      <ul className="flex items-center justify-center gap-[32px]">
+
+      <ul className=" hidden sm:hidden  lg:flex items-center justify-center gap-[32px]">
         <span className="flex items-center text-[#571244] gap-1">
           <li>About</li>
           <Image

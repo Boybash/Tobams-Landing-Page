@@ -2,239 +2,156 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <article className="bg-[#FFFFFF]">
-      <div className="flex justify-between items-center gap-5 p-10 mt-[120px]">
-        <div className="flex flex-col">
-          <h1 className=" text-[40px] font-semibold text-black">
+    <article className="bg-[#FFFFFF] overflow-hidden">
+      {/* SECTION 1: Corporate Trainings */}
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 p-6 md:p-10 mt-10 lg:mt-[120px] max-w-7xl mx-auto">
+        <div className="flex flex-col w-full lg:w-auto">
+          <h1 className="hidden md:block text-3xl md:text-[40px] font-semibold text-black mb-4">
             Corporate Trainings
           </h1>
-          <div className=" text-[#696969] rounded-md text-left">
-            <p className="w-[675px] text-left">
+          <div className="text-[#696969] rounded-md text-left">
+            <p className="w-full lg:max-w-[675px] text-left">
               Empower your team with our customised Corporate Training programs
               designed to address the unique needs and objectives of your
               organisation. Our expert facilitators work closely with your team
               to deliver tailored learning experiences that align with your
               company's goals and values.
             </p>
-            <ul className="flex flex-col pl-6 gap-3 my-3">
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Leadership Training</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Strategic Planning and Implementation</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Project Management</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Sustainability Training</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Customised Training</li>
-              </span>
+            <ul className="flex flex-col pl-2 md:pl-6 gap-3 my-5">
+              {[
+                "Leadership Training",
+                "Strategic Planning and Implementation",
+                "Project Management",
+                "Sustainability Training",
+                "Customised Training",
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-2 list-none">
+                  <Image
+                    src="/Vector2.png"
+                    alt="check"
+                    width={16}
+                    height={16}
+                  />
+                  <span>{item}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
 
-        <Image
-          className="rounded-br-lg rounded-bl-lg rounded-tr-lg rounded-tl-4xl"
-          src="/TobamsTrainingImage.jpg"
-          alt="training image"
-          width={602}
-          height={346}
-        />
+        <div>
+          <h1 className=" md:hidden text-3xl md:text-[40px] font-semibold text-black mb-4">
+            Corporate Trainings
+          </h1>
+          <Image
+            className="rounded-br-lg rounded-bl-lg rounded-tr-lg rounded-tl-[2rem] md:rounded-tl-4xl w-full lg:w-auto h-auto object-cover"
+            src="/TobamsTrainingImage.jpg"
+            alt="training image"
+            width={602}
+            height={346}
+          />
+        </div>
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-5 p-10 mt-[120px]">
-        <div className="flex flex-col">
-          <h1 className=" text-[40px] font-semibold text-black">
-            Personalised Individual Training{" "}
+      {/* SECTION 2: Personalised Individual Training */}
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-10 p-6 md:p-10 mt-16 lg:mt-[120px] max-w-7xl mx-auto">
+        <div className="flex flex-col w-full lg:w-auto">
+          <h1 className="hidden md:block text-3xl md:text-[40px] font-semibold text-black mb-4">
+            Personalised Individual Training
           </h1>
-          <div className=" text-[#696969] rounded-md text-left">
-            <p className="w-[675px] text-left">
+          <div className="text-[#696969] rounded-md text-left">
+            <p className="w-full lg:max-w-[675px] text-left">
               Begin a journey of lifelong learning and professional development
               with Tobams Group's diverse range of training programs for
               individuals. From technical skills mastery to soft skills
               enhancement, our courses cover a wide spectrum of topics to meet
               the evolving needs of today's professionals.
             </p>
-            <ul className="flex flex-col pl-6 gap-3 my-3">
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Leadership Training</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Soft Skills Development</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Industry Specific Knowledge</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Technical Skills Enhancement</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Time Management and Productivity</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Career Development</li>
-              </span>
+            <ul className="flex flex-col pl-2 md:pl-6 gap-3 my-5">
+              {[
+                "Leadership Training",
+                "Soft Skills Development",
+                "Industry Specific Knowledge",
+                "Technical Skills Enhancement",
+                "Time Management and Productivity",
+                "Career Development",
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-2 list-none">
+                  <Image
+                    src="/Vector2.png"
+                    alt="check"
+                    width={16}
+                    height={16}
+                  />
+                  <span>{item}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
-
-        <Image
-          className="rounded-br-lg rounded-bl-lg rounded-tr-lg rounded-tl-4xl"
-          src="/TobamsTrainigImage2.jpg"
-          alt="training image"
-          width={602}
-          height={346}
-        />
+        <div>
+          <h1 className=" md:hidden text-3xl md:text-[40px] font-semibold text-black mb-4">
+            Personalised Individual Training
+          </h1>
+          <Image
+            className="rounded-br-lg rounded-bl-lg rounded-tr-lg rounded-tl-[2rem] md:rounded-tl-4xl w-full lg:w-auto h-auto object-cover"
+            src="/TobamsTrainigImage2.jpg"
+            alt="training image"
+            width={602}
+            height={346}
+          />
+        </div>
       </div>
 
-      <div className="flex justify-between items-center gap-5 p-10 mt-[120px]">
-        <div className="flex flex-col">
-          <h1 className=" text-[40px] font-semibold text-black">
+      {/* SECTION 3: Capacity Development */}
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 p-6 md:p-10 mt-16 lg:mt-[120px] mb-10 max-w-7xl mx-auto">
+        <div className="flex flex-col w-full lg:w-auto">
+          <h1 className="hidden md:block text-3xl md:text-[40px] font-semibold text-black mb-4">
             Capacity Development
           </h1>
-          <div className=" text-[#696969] rounded-md text-left">
-            <p className="w-[675px] text-left">
+          <div className="text-[#696969] rounded-md text-left">
+            <p className="w-full lg:max-w-[675px] text-left">
               At Tobams Group, we empower individuals and organizations through
               tailored training programs, expert-led workshops, and personalized
               mentorship. We are committed to your success and growth. We are
               dedicated to providing a comprehensive suite of benefits designed
               to foster your development and success:
             </p>
-            <ul className="flex flex-col pl-6 gap-3 my-3">
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Tailored Training Programs</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Expert-Led Workshops</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Personalized Mentorship</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Technical Skills Enhancement</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Collaborative Learning Environment</li>
-              </span>
-              <span className="flex items-center gap-2">
-                <Image
-                  src="/Vector2.png"
-                  alt="Vector2"
-                  width={16}
-                  height={16}
-                />
-                <li>Ongoing Support and Resources</li>
-              </span>
+            <ul className="flex flex-col pl-2 md:pl-6 gap-3 my-5">
+              {[
+                "Tailored Training Programs",
+                "Expert-Led Workshops",
+                "Personalized Mentorship",
+                "Technical Skills Enhancement",
+                "Collaborative Learning Environment",
+                "Ongoing Support and Resources",
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-2 list-none">
+                  <Image
+                    src="/Vector2.png"
+                    alt="check"
+                    width={16}
+                    height={16}
+                  />
+                  <span>{item}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
 
-        <Image
-          className="rounded-br-lg rounded-bl-lg rounded-tr-lg rounded-tl-4xl"
-          src="/TobamsTrainingImage3.jpg"
-          alt="training image"
-          width={602}
-          height={346}
-        />
+        <div>
+          <h1 className=" md:hidden text-3xl md:text-[40px] font-semibold text-black mb-4">
+            Capacity Development
+          </h1>
+          <Image
+            className="rounded-br-lg rounded-bl-lg rounded-tr-lg rounded-tl-[2rem] md:rounded-tl-4xl w-full lg:w-auto h-auto object-cover"
+            src="/TobamsTrainingImage3.jpg"
+            alt="training image"
+            width={602}
+            height={346}
+          />
+        </div>
       </div>
     </article>
   );

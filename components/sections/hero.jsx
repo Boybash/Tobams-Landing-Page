@@ -6,10 +6,10 @@ export default function Hero() {
       <h1 className="bg-[#000000B2] uppercase py-2 px-5 rounded-full mb-3">
         What we do
       </h1>
-      <h2 className="text-[52px] text-white font-bold mb-5">
+      <h2 className="text-center text-[52px] text-white font-bold mb-5">
         Training and Development
       </h2>
-      <p className="mb-15 w-[1077px] text-center text-[18px]">
+      <p className="mb-15 text-center text-[18px]">
         Our comprehensive range of programs and resources is designed to enhance
         skills, broaden knowledge, and propel careers forward in today's
         ever-evolving landscape.

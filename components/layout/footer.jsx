@@ -3,153 +3,200 @@ import Button from "../ui/button";
 
 export default function Footer() {
   return (
-    <>
-      <div className="bg-[#1D0617] w-full max-w-full flex items-center justify-between px-20 py-5 text-white m-auto">
-        <span>
-          <p className="mb-3 text-[18px]">
+    <div className="text-[#FFFFFF]">
+      {/* Top CTA Footer */}
+      <footer className="bg-[#1D0617] w-full flex flex-col items-start md:flex-row md:items-center justify-between px-6 md:px-10 lg:px-20 py-8 md:py-5 gap-6">
+        <div className="text-left md:text-left">
+          <p className=" mb-5 md:mb-2 text-base md:text-[18px] opacity-90">
             Ready to be a part of something extraordinary?
           </p>
-          <h1 className="text-[32px]">
+          <h1 className="text-2xl md:text-[32px] font-semibold leading-tight">
             Let’s work together to create a difference
           </h1>
-        </span>
-        <span>
-          <Button className="px-4 py-2.5 text-white bg-[#571244] rounded-md">
-            Get In Touch
-          </Button>
-        </span>
-      </div>
-      <hr className=" border-[#323031] w-full" />
+        </div>
+        <Button className="px-6 py-2.5 text-white bg-[#571404] rounded-md whitespace-nowrap">
+          Get In Touch
+        </Button>
+      </footer>
 
-      <footer className="flex flex-col items-center justify-between px-10 py-5 w-full m-auto bg-[#11040E] ">
-        <div className="flex  justify-between gap-40 bg-[#11040E] p-10 w-full max-w-full m-auto">
-          <div className="flex flex-col gap-6 w-[356px]">
+      <hr className="border-[#323031] w-full" />
+
+      {/* Main Footer Links Section */}
+      <footer className="bg-[#11040E] px-6 md:px-10 py-12 w-full">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-12 lg:gap-8">
+          {/* Logo and Socials */}
+          <div className="flex flex-col gap-6 max-w-sm">
             <Image src="/TobamsLogo.png" alt="Logo" width={165} height={64} />
-            <span className="text-white">
+            <p className="text-sm md:text-base leading-relaxed opacity-80">
               Tobams Group is an innovative consultancy firm reshaping the
               future of tech talent development in Africa, specializing in
               talent acquisition, internships, and skill development with a
               global perspective.
-            </span>
-            <span className="flex gap-4">
+            </p>
+            <div className="flex gap-4">
               <Image
                 src="/linkedinlogo.png"
-                alt="Logo"
-                width={30}
-                height={30}
+                alt="LinkedIn"
+                width={40}
+                height={40}
+                className="cursor-pointer"
               />
               <Image
                 src="/instagramlogo.png"
-                alt="Logo"
-                width={30}
-                height={30}
+                alt="Instagram"
+                width={40}
+                height={40}
+                className="cursor-pointer"
               />
-              <Image src="/twitterlogo.png" alt="Logo" width={30} height={30} />
-            </span>
-          </div>
-
-          <ul className="flex flex-col gap-2 text-white text-left">
-            <li className="font-semibold">What we do</li>
-            <li>Sustainability Services</li>
-            <li>Strategy Planning and Implementation</li>
-            <li>Tech Talent Solutions</li>
-            <li>Training and Development</li>
-            <li>IT Consulting Services</li>
-            <li>Social Impact</li>
-            <li>Talent Recruitment</li>
-          </ul>
-
-          <ul className="flex flex-col gap-2 text-white text-left">
-            <li className="font-semibold">Company</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Our Founder</li>
-            <li>Business Model</li>
-            <li>The Team</li>
-            <li>Contact Us</li>
-            <li>Blog</li>
-            <li>FAQs</li>
-            <li>Testimonials</li>
-          </ul>
-
-          <ul className="flex flex-col gap-2 text-white text-left">
-            <li className="font-semibold">Solution</li>
-            <li>Tobams Group Academy</li>
-            <li>Help a Tech Talent</li>
-            <li>Campus Ambassadors Program</li>
-            <li>Join Our Platform</li>
-            <li>Pricing</li>
-            <li>Book a Consultation</li>
-            <li>Join Our Slack Community</li>
-          </ul>
-        </div>
-
-        <div className="flex justify-between gap-30 mt-10 ">
-          <div className="flex  ">
-            <div className="flex justify-between gap-20">
-              <div className="flex flex-col w-[410px]">
-                <p className="mb-3 font-semibold">Registered Offices</p>
-                <div>
-                  <span>
-                    <p className="text-[#EF4353]">United Kingdom</p>
-                    <p>
-                      07451196 (Registered by Company House) Vine Cottages, 215
-                      North Street, Romford, Essex, United Kingdom, RM1 4QA
-                    </p>
-                  </span>
-                </div>
-              </div>
-
-              <div className="border-l-2 border-[#323031] h-20 mt-10"></div>
-
-              <span className=" w-[417px] mt-8">
-                <p className="text-[#EF4353]">Nigeria</p>
-                <p>
-                  07451196 (Registered by Company House) Vine Cottages, 215
-                  North Street, Romford, Essex, United Kingdom, RM1 4QA
-                </p>
-              </span>
+              <Image
+                src="/twitterlogo.png"
+                alt="Twitter"
+                width={40}
+                height={40}
+                className="cursor-pointer"
+              />
             </div>
           </div>
 
-          <div className="flex gap-10 text-left">
-            <div className="border-l-2 border-[#323031] h-20 mt-10"></div>
+          {/* Links Grid */}
+          <div className=" flex flex-col md:grid md:grid-cols-3 gap-8 lg:gap-16">
+            <ul className="flex flex-col gap-3 text-sm">
+              <li className="font-bold text-base mb-1 text-[18px]">
+                What we do
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Sustainability Services
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Strategy Planning and Implementation{" "}
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Tech Talent Solutions
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Training & Development
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                IT Consulting
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Social Impact{" "}
+              </li>
+            </ul>
+
+            <ul className="flex flex-col gap-3 text-sm">
+              <li className="font-bold text-base mb-1 text-white text-[18px]">
+                Company
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">About</li>
+              <li className="hover:text-[#EF4353] cursor-pointer">Jobs</li>
+              <li className="hover:text-[#EF4353] cursor-pointer">Projects</li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Our Founder
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Business Model{" "}
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">The Team</li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Contact Us
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">Blog</li>
+              <li className="hover:text-[#EF4353] cursor-pointer uppercase">
+                Faqs
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Testimonials
+              </li>
+            </ul>
+
+            <ul className="flex flex-col gap-3 text-sm col-span-2 md:col-span-1">
+              <li className="font-bold text-base mb-1 text-[18px]">Solution</li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Tobams Group Academy{" "}
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Help a Tech Talent
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Campus Ambassadors Program
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Join Our Platform
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">Pricing</li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Book a Consultation
+              </li>
+              <li className="hover:text-[#EF4353] cursor-pointer">
+                Join Our Slack Community
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Office Locations & Contact */}
+        <div className="max-w-7xl mx-auto mt-16 flex flex-col-reverse md:grid md:grid-cols-2 lg:grid-cols-3 gap-10 border-t border-[#323031] pt-10">
+          <div>
+            <p className="mb-4 font-bold uppercase text-xs tracking-widest text-white">
+              Registered Offices
+            </p>
             <div>
-              <p className="mb-5 font-semibold">Contact Information</p>
+              <p className="text-[#EF4353] font-semibold mb-1">
+                United Kingdom
+              </p>
+              <p className="text-sm opacity-80">
+                07451196 (Registered by Company House) Vine Cottages, 215 North
+                Street, Romford, Essex, RM1 4QA
+              </p>
+            </div>
 
-              <span className="flex gap-2 items-center">
-                <Image
-                  src="/mailicon.png"
-                  alt="mail icon"
-                  width={30}
-                  height={30}
-                />
-                <p>theteam@tobamsgroup.com</p>
-              </span>
-              <span className="flex gap-2 items-center">
-                <Image
-                  src="/phoneicon.png"
-                  alt="phone icon"
-                  width={30}
-                  height={30}
-                />
-                <p>+447886600748</p>
-              </span>
+            <div className="md:border-l border-[#323031] md:pl-8">
+              <p className="text-[#EF4353] font-semibold mb-1 mt-6 md:mt-0 lg:mt-8">
+                Nigeria
+              </p>
+              <p className="text-sm opacity-80">
+                Vine Cottages, 215 North Street, Romford, Essex, United Kingdom,
+                RM1 4QA
+              </p>
+            </div>
+          </div>
+
+          <div className="lg:border-l border-[#323031] lg:pl-8 flex flex-col gap-4">
+            <p className="font-bold uppercase text-xs tracking-widest text-white">
+              Contact Information
+            </p>
+            <div className="flex gap-3 items-center text-sm">
+              <Image src="/mailicon.png" alt="Email" width={20} height={20} />
+              <p>theteam@tobamsgroup.com</p>
+            </div>
+            <div className="flex gap-3 items-center text-sm">
+              <Image src="/phoneicon.png" alt="Phone" width={20} height={20} />
+              <p>+447886600748</p>
             </div>
           </div>
         </div>
 
-        <hr className="my-5 border-[#323031] w-full" />
+        <hr className="my-10 border-[#323031]" />
 
-        <div className="flex justify-between gap-5 items-center w-full max-w-full m-auto">
-          <p>Copyright ⓒ Tobams Group, 2024. All rights reserved.</p>
-          <ul className="flex gap-5">
-            <li>Terms and Conditions</li>
-            <li>Privacy Policy</li>
-            <li>Cookies Policy</li>
+        {/* Bottom Bar */}
+        <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row justify-between gap-6 items-center text-xs md:text-sm text-gray-400">
+          <p className="text-center md:text-left">
+            Copyright ⓒ Tobams Group, 2024. All rights reserved.
+          </p>
+          <ul className="flex flex-wrap justify-center gap-4 md:gap-8">
+            <li className="hover:text-white cursor-pointer transition-colors">
+              Terms and Conditions
+            </li>
+            <li className="hover:text-white cursor-pointer transition-colors">
+              Privacy Policy
+            </li>
+            <li className="hover:text-white cursor-pointer transition-colors">
+              Cookies Policy
+            </li>
           </ul>
         </div>
       </footer>
-    </>
+    </div>
   );
 }
