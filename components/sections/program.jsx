@@ -5,6 +5,9 @@ export default function Program() {
     <main className="bg-[#F9F9F9] p-4 md:p-10 flex justify-center mt-10 lg:mt-15">
       {/* Container: Replaced fixed width with max-width and removed fixed pixels */}
       <div className="bg-[#2C0922] p-6 md:p-10 rounded-2xl flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-16 w-full max-w-[1320px] text-white">
+        <h1 className=" md:hidden text-[16px] md:text-[40px] font-semibold leading-tight">
+          Management Development Program
+        </h1>
         {/* Image: Added responsive width classes */}
         <div className="w-full lg:w-1/2">
           <Image
@@ -19,7 +22,7 @@ export default function Program() {
 
         {/* Text Content: Removed fixed width, added responsive font sizes */}
         <div className="flex flex-col gap-5 md:gap-7 w-full lg:w-1/2">
-          <h1 className="text-3xl md:text-[40px] font-semibold leading-tight">
+          <h1 className=" hidden md:block text-3xl md:text-[40px] font-semibold leading-tight">
             Management Development Program
           </h1>
           <p className="text-sm md:text-base opacity-90">
