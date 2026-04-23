@@ -3,7 +3,7 @@ import Button from "../ui/button";
 
 export default function Consultant() {
   return (
-    <main className="bg-[#FFFFFF1A] p-6 md:p-10 my-10 lg:my-15 max-w-7xl mx-auto">
+    <main className="bg-[#5712441A] p-6 md:p-30 my-10 lg:my-15 w-full max-w-full mx-auto">
       {/* Header Section */}
       <div className="flex flex-col gap-4 md:gap-5">
         <h1 className="text-[#571244] text-3xl md:text-[40px] font-semibold leading-tight">
@@ -65,9 +65,9 @@ export default function Consultant() {
       </div>
 
       {/* Button: w-full on mobile for better UX */}
-      <Button className="px-4 py-2.5 text-white bg-[#572044] rounded-md flex items-center justify-center gap-3 mt-8 w-full sm:w-[175px] hover:opacity-90 transition-opacity">
+      <Button className="px-4 py-2.5 text-white bg-[#572044] rounded-md flex items-center justify-center gap-3 mt-8 w-[161px] hover:opacity-90 transition-opacity">
         <span className="font-medium">Learn More</span>
-        <Image src="/arrow-up-right.png" alt="arrow" width={24} height={24} />
+        <Image src="/heroicons.png" alt="arrow" width={24} height={24} />
       </Button>
     </main>
   );

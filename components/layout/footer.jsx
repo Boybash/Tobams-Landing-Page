@@ -136,12 +136,12 @@ export default function Footer() {
         </div>
 
         {/* Office Locations & Contact */}
-        <div className="max-w-7xl mx-auto mt-16 flex flex-col-reverse md:grid md:grid-cols-2 lg:grid-cols-3 gap-10 border-t border-[#323031] pt-10">
-          <div>
-            <p className="mb-4 font-bold uppercase text-xs tracking-widest text-white">
-              Registered Offices
-            </p>
+        <div className=" bg-[#FFFFFF0F] max-w-full mx-auto mt-[20px] flex flex-col-reverse gap-6 p-4 md:flex-row md:justify-between md:gap-20 rounded-md md:px-15 md:py-10">
+          <div className="md:flex">
             <div>
+              <p className="mb-4 font-bold uppercase text-xs tracking-widest text-white">
+                Registered Offices
+              </p>
               <p className="text-[#EF4353] font-semibold mb-1">
                 United Kingdom
               </p>

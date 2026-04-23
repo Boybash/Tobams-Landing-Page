@@ -3,7 +3,7 @@ import Button from "../ui/button";
 
 export default function ManagementSection() {
   return (
-    <main className="bg-[#F9F9F9] flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-20 p-6 md:p-10 mt-10 lg:mt-15">
+    <main className="bg-[#5712441A] flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-20 p-6 md:p-10 mt-10 lg:mt-15">
       <h1 className="sm:hidden text-[#571244] text-[20px] md:text-[40px] font-semibold leading-tight mb-2">
         Learning Management System
       </h1>
@@ -53,7 +53,7 @@ export default function ManagementSection() {
           </div>
         </div>
 
-        <Button className="px-4 py-2.5 text-white bg-[#571244] rounded-md flex items-center justify-center gap-3 mt-8 w-full sm:w-[175px] transition-hover hover:bg-[#450e36]">
+        <Button className="px-4 py-2.5 text-white bg-[#571244] rounded-md flex items-center justify-center gap-3 mt-8 w-[175px] transition-hover hover:bg-[#450e36]">
           <span className="font-medium">Learn More</span>
           <Image src="/arrow-up-right.png" alt="arrow" width={20} height={20} />
         </Button>

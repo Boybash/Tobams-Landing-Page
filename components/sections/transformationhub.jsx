@@ -65,7 +65,7 @@ export default function TransformationHub() {
               ))}
             </ul>
 
-            <Button className="px-4 py-2.5 text-white bg-[#572044] rounded-md flex items-center justify-center gap-3 mt-8 w-full sm:w-[175px] hover:bg-[#4a1a39] transition-colors">
+            <Button className="px-4 py-2.5 text-white bg-[#572044] rounded-md flex items-center justify-center gap-3 mt-8 w-[175px] hover:bg-[#4a1a39] transition-colors">
               <span>Learn More</span>
               <Image
                 src="/arrow-up-right.png"
