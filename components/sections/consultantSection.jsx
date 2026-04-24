@@ -66,7 +66,7 @@ export default function Consultant() {
 
       {/* Button: w-full on mobile for better UX */}
       <Button className="px-4 py-2.5 text-white bg-[#572044] rounded-md flex items-center justify-center gap-3 mt-8 w-[161px] hover:opacity-90 transition-opacity">
-        <span className="font-medium">Learn More</span>
+        <a className="font-medium">Learn More</a>
         <Image src="/heroicons.png" alt="arrow" width={24} height={24} />
       </Button>
     </section>

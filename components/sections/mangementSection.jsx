@@ -54,7 +54,7 @@ export default function ManagementSection() {
         </div>
 
         <Button className="px-4 py-2.5 text-white bg-[#571244] rounded-md flex items-center justify-center gap-3 mt-8 w-[175px] transition-hover hover:bg-[#450e36]">
-          <span className="font-medium">Learn More</span>
+          <a className="font-medium">Learn More</a>
           <Image src="/arrow-up-right.png" alt="arrow" width={20} height={20} />
         </Button>
       </div>
