@@ -3,10 +3,10 @@ import Button from "../ui/button";
 
 export default function TransformationHub() {
   return (
-    <main className="bg-[#F9F9F9] p-4 md:p-10 flex items-center justify-center my-10 lg:my-15">
+    <section className="bg-[#F9F9F9] p-4 md:p-10 flex items-center justify-center my-10 lg:my-15">
       <div className="bg-[#EF435333] p-6 md:p-12 rounded-2xl w-full max-w-[1312px] flex flex-col gap-8">
         {/* Header Section */}
-        <div className="max-w-4xl">
+        <div className="max-w-7xl">
           <h1 className="text-[#1671D9] text-lg md:text-[20px] italic">
             Learning With Our CEO:
           </h1>
@@ -77,6 +77,6 @@ export default function TransformationHub() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

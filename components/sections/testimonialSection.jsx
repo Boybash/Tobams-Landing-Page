@@ -49,7 +49,7 @@ export default function Testimonial() {
     }
   };
   return (
-    <main className="px-4 py-10">
+    <section className="px-4 py-5">
       {/* Call to Action Section */}
       <div className="flex flex-col items-center gap-6 md:gap-10 bg-[#571244] w-full max-w-[1134px] p-6 md:p-10 rounded-md mx-auto text-center">
         <div>
@@ -140,7 +140,7 @@ export default function Testimonial() {
           <button
             onClick={handlePreviousPage}
             disabled={currentPage === 1}
-            className={`transition-opacity ${currentPage === 1 ? "opacity-20 cursor-not-allowed" : "hover:opacity-60"} ${currentPage === totalPages ? "opacity-20 cursor-not-allowed" : "hover:opacity-60"}`}
+            className={`transition-opacity ${currentPage === 1 ? "opacity-20 cursor-not-allowed" : "hover:opacity-60"} `}
           >
             <Image
               src="/arrow-left.png"
@@ -158,6 +158,6 @@ export default function Testimonial() {
           </button>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

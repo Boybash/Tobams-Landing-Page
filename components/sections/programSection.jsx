@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Program() {
   return (
-    <main className="bg-[#F9F9F9] p-4 md:p-10 flex justify-center mt-10 lg:mt-15">
+    <section className="bg-[#F9F9F9] p-4 md:p-10 flex justify-center md:mt-10 lg:mt-15">
       {/* Container: Replaced fixed width with max-width and removed fixed pixels */}
       <div className="bg-[#2C0922] p-6 md:p-10 rounded-2xl flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-16 w-full max-w-[1320px] text-white">
         <h1 className=" md:hidden text-[16px] md:text-[40px] font-semibold leading-tight">
@@ -11,7 +11,7 @@ export default function Program() {
         {/* Image: Added responsive width classes */}
         <div className="w-full lg:w-1/2">
           <Image
-            className="rounded-md w-full h-auto object-cover"
+            className="rounded-md w-full object-cover"
             src="/TobamsDevelopmentImage2.jpg"
             alt="development image"
             width={592}
@@ -63,6 +63,6 @@ export default function Program() {
           </ul>
         </div>
       </div>
-    </main>
+    </section>
   );
 }

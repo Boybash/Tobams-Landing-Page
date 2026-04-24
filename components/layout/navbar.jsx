@@ -40,7 +40,7 @@ export default function Navbar() {
         {/* Hamburger Toggle */}
         <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
           <Image
-            src="/hamburger.png"
+            src={isOpen ? "/closeIcon.png" : "/hamburger.png"}
             alt="hambuger mobile"
             width={32}
             height={20}
@@ -48,7 +48,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      <hr className="hidden md:block my-4 border-black w-full" />
+      <hr className="hidden lg:block my-4 border-black w-full" />
 
       {/* Desktop Menu - Keeps your exact logic */}
       <ul className="hidden sm:hidden lg:flex items-center justify-center gap-[32px]">
@@ -91,7 +91,7 @@ export default function Navbar() {
 
       {/* Mobile Menu - Shown when isOpen is true */}
       {isOpen && (
-        <div className="lg:hidden w-full bg-white absolute top-[100px] left-0 z-50 p-10 shadow-lg">
+        <div className="lg:hidden w-full bg-white/80 absolute top-[100px] left-0 z-50 p-10 shadow-lg">
           <ul className="flex flex-col gap-6">
             <li className="text-[#571244]">About</li>
             <li className="text-[#151515]">What We Do</li>

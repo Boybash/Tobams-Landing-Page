@@ -21,6 +21,10 @@ const nunitoSans = Nunito_Sans({
 export const metadata: Metadata = {
   title: "Tobams Group",
   description: "Innovative consultancy firm reshaping tech talent.",
+  icons: {
+    icon: "/TobamsLogo.png", // Path to your icon in the /public folder
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

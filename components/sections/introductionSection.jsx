@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Introduction() {
   return (
-    <article className="bg-[#FFFFFF] overflow-hidden">
+    <section className="bg-[#FFFFFF] overflow-hidden">
       {/* SECTION 1: Corporate Trainings */}
-      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-20 p-6 md:p-10 md:mt-10 lg:mt-[120px] max-w-7xl mx-auto">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-[24px] md:gap-20 p-6 md:p-10 md:mt-10 lg:mt-[120px] max-w-7xl mx-auto">
         <div className="flex flex-col w-full lg:w-auto">
           <h1 className="hidden md:block text-3xl md:text-[40px] font-semibold text-black mb-4">
             Corporate Trainings
           </h1>
           <div className="text-[#696969] rounded-md text-left">
-            <p className="w-full lg:max-w-[675px] text-left text-[18px]">
+            <p className="w-full lg:max-w-[629px] text-left text-[18px]">
               Empower your team with our customised Corporate Training programs
               designed to address the unique needs and objectives of your
               organisation. Our expert facilitators work closely with your team
@@ -54,13 +54,13 @@ export default function Introduction() {
       </div>
 
       {/* SECTION 2: Personalised Individual Training */}
-      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-20 p-6 md:p-10 md:mt-16 lg:mt-[120px] max-w-7xl mx-auto">
+      <div className="flex flex-col-reverse lg:flex-row-reverse justify-between items-center gap-[24px] md:gap-20 p-6 md:p-10 md:mt-16 lg:mt-[120px] max-w-7xl mx-auto">
         <div className="flex flex-col w-full lg:w-auto">
           <h1 className="hidden md:block text-3xl md:text-[40px] font-semibold text-black mb-4">
             Personalised Individual Training
           </h1>
           <div className="text-[#696969] rounded-md text-left">
-            <p className="w-full lg:max-w-[675px] text-left text-[18px]">
+            <p className="w-full lg:max-w-[629px] text-left text-[18px]">
               Begin a journey of lifelong learning and professional development
               with Tobams Group's diverse range of training programs for
               individuals. From technical skills mastery to soft skills
@@ -104,13 +104,13 @@ export default function Introduction() {
       </div>
 
       {/* SECTION 3: Capacity Development */}
-      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-20 p-6 md:p-10 md:mt-16 lg:mt-[120px] mb-10 max-w-7xl mx-auto">
+      <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-[24px] md:gap-20 p-6 md:p-10 md:mt-16 lg:mt-[120px] mb-10 max-w-7xl mx-auto">
         <div className="flex flex-col w-full lg:w-auto">
           <h1 className="hidden md:block text-3xl md:text-[40px] font-semibold text-black mb-4">
             Capacity Development
           </h1>
           <div className="text-[#696969] rounded-md text-left">
-            <p className="w-full lg:max-w-[675px] text-left text-[18px]">
+            <p className="w-full lg:max-w-[629px] text-left text-[18px]">
               At Tobams Group, we empower individuals and organizations through
               tailored training programs, expert-led workshops, and personalized
               mentorship. We are committed to your success and growth. We are
@@ -153,6 +153,6 @@ export default function Introduction() {
           />
         </div>
       </div>
-    </article>
+    </section>
   );
 }

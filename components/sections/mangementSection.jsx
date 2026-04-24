@@ -3,7 +3,7 @@ import Button from "../ui/button";
 
 export default function ManagementSection() {
   return (
-    <main className="bg-[#5712441A] flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-20 p-6 md:p-10 mt-10 lg:mt-15">
+    <section className="bg-[#5712441A] flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-20 p-6 md:p-10 mt-10 lg:mt-15">
       <h1 className="sm:hidden text-[#571244] text-[20px] md:text-[40px] font-semibold leading-tight mb-2">
         Learning Management System
       </h1>
@@ -58,6 +58,6 @@ export default function ManagementSection() {
           <Image src="/arrow-up-right.png" alt="arrow" width={20} height={20} />
         </Button>
       </div>
-    </main>
+    </section>
   );
 }

@@ -3,7 +3,7 @@ import Button from "../ui/button";
 
 export default function Consultant() {
   return (
-    <main className="bg-[#5712441A] p-6 md:p-30 my-10 lg:my-15 w-full max-w-full mx-auto">
+    <section className="bg-[#5712441A] p-6 md:p-30 my-10 lg:my-15 w-full max-w-full mx-auto">
       {/* Header Section */}
       <div className="flex flex-col gap-4 md:gap-5">
         <h1 className="text-[#571244] text-3xl md:text-[40px] font-semibold leading-tight">
@@ -69,6 +69,6 @@ export default function Consultant() {
         <span className="font-medium">Learn More</span>
         <Image src="/heroicons.png" alt="arrow" width={24} height={24} />
       </Button>
-    </main>
+    </section>
   );
 }
