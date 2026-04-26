@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false); // Added state
 
   return (
-    <nav className="bg-[#FFFFFF] flex flex-col items-center justify-between px-10 py-5 relative">
+    <nav className="bg-[#FFFFFF] flex flex-col items-center justify-between px-10 py-5 sticky z-80 left-0 right-0 bottom-0 top-0">
       <div className="flex justify-between w-full">
         <div>
           <Image src="/TobamsLogo.png" alt="Logo" width={165} height={64} />
