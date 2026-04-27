@@ -12,7 +12,7 @@ export default function Consultant() {
         <p className="text-[#571244] text-base md:text-[18px] font-semibold">
           Maximise Your Potential as a Certified Trainer:
         </p>
-        <p className="text-[#151515] leading-relaxed max-w-4xl">
+        <p className="text-[#151515] leading-relaxed max-w-7xl">
           With the help of our Training Consultants program, take a
           revolutionary step toward becoming a distinguished certified training
           consultant. Learn from professionals in the field, immerse yourself in
